@@ -10,16 +10,6 @@ Given a voice-converted (VC) sample, reconstruct speech in the voice of the orig
 verifier. It is the inverse of voice conversion. It was built on using the data and baseline
 of the [SLT 2024 Source Speaker Tracing Challenge (SSTC)](https://sstc-challenge.github.io).
 
-```
- source speaker (LibriSpeech) ──┐
-                                ├── voice conversion ──► VC sample ──────────┐
- target voice (VoxCeleb) ───────┘                                            ▼
- source-speaker verifier ──► source embedding g ──► reconstructor ──► reconstructed speech
- (embeddings/)                                      (FreeVC, AGAIN-VC,      │
-                                                     DiffVC)                ▼
-                                                                    ASV / EER, WER (evaluation/)
-```
-
 Although the publication reports mainly the FreeVC-based reconstructor architecture, 
 four reconstructors were implemented, each an existing VC model adapted to take the
 external embedding `g` instead of a reference utterance:
@@ -214,7 +204,7 @@ The format of the embedding files is described in [EMBEDDINGS.md](embeddings/EMB
 
 ## License
 
-MIT, see `LICENSE`. Vendored code keeps its own license:
+MIT (`LICENSE`). Vendored code keeps its own license:
 
 - `freevc/audio.py`, `freevc/losses.py` and the training loop:
   [FreeVC](https://github.com/OlaWod/FreeVC), MIT (`freevc/LICENSE`).
