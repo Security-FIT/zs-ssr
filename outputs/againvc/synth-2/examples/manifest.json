@@ -1,0 +1,112 @@
+{
+  "metric": "cosine(ASV(recon), ASV(source original)); higher = better",
+  "n_candidates": 200,
+  "n_per_category": 3,
+  "architecture": "againvc",
+  "split": "test",
+  "test_synth": [
+    "Test-2"
+  ],
+  "epoch": 10,
+  "examples": [
+    {
+      "category": "best",
+      "rank": 1,
+      "score": 0.3813,
+      "source_speaker": "61",
+      "vc_file": "../shared/datasets/slt-sstc/test/Test-2/id11173-tI3heF0RVOg-00001-61-70968-0029.wav",
+      "source_file": "../shared/datasets/LibriSpeech/test-clean/61/70968/61-70968-0029.flac",
+      "vcinput_wav": "best1_cos0.381_1vcinput.wav",
+      "recon_wav": "best1_cos0.381_2recon.wav",
+      "source_wav": "best1_cos0.381_3source.wav"
+    },
+    {
+      "category": "best",
+      "rank": 2,
+      "score": 0.3448,
+      "source_speaker": "61",
+      "vc_file": "../shared/datasets/slt-sstc/test/Test-2/id10513-clbjFPrMtQE-00001-61-70968-0019.wav",
+      "source_file": "../shared/datasets/LibriSpeech/test-clean/61/70968/61-70968-0019.flac",
+      "vcinput_wav": "best2_cos0.345_1vcinput.wav",
+      "recon_wav": "best2_cos0.345_2recon.wav",
+      "source_wav": "best2_cos0.345_3source.wav"
+    },
+    {
+      "category": "best",
+      "rank": 3,
+      "score": 0.3372,
+      "source_speaker": "908",
+      "vc_file": "../shared/datasets/slt-sstc/test/Test-2/id11173-Eo_96YmM1A4-00016-908-31957-0016.wav",
+      "source_file": "../shared/datasets/LibriSpeech/test-clean/908/31957/908-31957-0016.flac",
+      "vcinput_wav": "best3_cos0.337_1vcinput.wav",
+      "recon_wav": "best3_cos0.337_2recon.wav",
+      "source_wav": "best3_cos0.337_3source.wav"
+    },
+    {
+      "category": "average",
+      "rank": 1,
+      "score": 0.0746,
+      "source_speaker": "5105",
+      "vc_file": "../shared/datasets/slt-sstc/test/Test-2/id10961-sJ7jPwLCPwk-00006-5105-28240-0009.wav",
+      "source_file": "../shared/datasets/LibriSpeech/test-clean/5105/28240/5105-28240-0009.flac",
+      "vcinput_wav": "average1_cos0.075_1vcinput.wav",
+      "recon_wav": "average1_cos0.075_2recon.wav",
+      "source_wav": "average1_cos0.075_3source.wav"
+    },
+    {
+      "category": "average",
+      "rank": 2,
+      "score": 0.075,
+      "source_speaker": "1995",
+      "vc_file": "../shared/datasets/slt-sstc/test/Test-2/id10242-RMDXpJ5e_kE-00122-1995-1837-0007.wav",
+      "source_file": "../shared/datasets/LibriSpeech/test-clean/1995/1837/1995-1837-0007.flac",
+      "vcinput_wav": "average2_cos0.075_1vcinput.wav",
+      "recon_wav": "average2_cos0.075_2recon.wav",
+      "source_wav": "average2_cos0.075_3source.wav"
+    },
+    {
+      "category": "average",
+      "rank": 3,
+      "score": 0.0756,
+      "source_speaker": "8463",
+      "vc_file": "../shared/datasets/slt-sstc/test/Test-2/id10242-3ez0KTAsvZE-00029-8463-294828-0000.wav",
+      "source_file": "../shared/datasets/LibriSpeech/test-clean/8463/294828/8463-294828-0000.flac",
+      "vcinput_wav": "average3_cos0.076_1vcinput.wav",
+      "recon_wav": "average3_cos0.076_2recon.wav",
+      "source_wav": "average3_cos0.076_3source.wav"
+    },
+    {
+      "category": "worst",
+      "rank": 1,
+      "score": -0.1492,
+      "source_speaker": "8555",
+      "vc_file": "../shared/datasets/slt-sstc/test/Test-2/id11008-_V_vWypvcNc-00001-8555-284449-0007.wav",
+      "source_file": "../shared/datasets/LibriSpeech/test-clean/8555/284449/8555-284449-0007.flac",
+      "vcinput_wav": "worst1_cos-0.149_1vcinput.wav",
+      "recon_wav": "worst1_cos-0.149_2recon.wav",
+      "source_wav": "worst1_cos-0.149_3source.wav"
+    },
+    {
+      "category": "worst",
+      "rank": 2,
+      "score": -0.1231,
+      "source_speaker": "7127",
+      "vc_file": "../shared/datasets/slt-sstc/test/Test-2/id10060-u7KTRzyv_yE-00004-7127-75947-0029.wav",
+      "source_file": "../shared/datasets/LibriSpeech/test-clean/7127/75947/7127-75947-0029.flac",
+      "vcinput_wav": "worst2_cos-0.123_1vcinput.wav",
+      "recon_wav": "worst2_cos-0.123_2recon.wav",
+      "source_wav": "worst2_cos-0.123_3source.wav"
+    },
+    {
+      "category": "worst",
+      "rank": 3,
+      "score": -0.1181,
+      "source_speaker": "2300",
+      "vc_file": "../shared/datasets/slt-sstc/test/Test-2/id10927-dINKWWFmMyo-00035-2300-131720-0007.wav",
+      "source_file": "../shared/datasets/LibriSpeech/test-clean/2300/131720/2300-131720-0007.flac",
+      "vcinput_wav": "worst3_cos-0.118_1vcinput.wav",
+      "recon_wav": "worst3_cos-0.118_2recon.wav",
+      "source_wav": "worst3_cos-0.118_3source.wav"
+    }
+  ]
+}

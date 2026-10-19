@@ -1,0 +1,1 @@
+epoch 20 samples 6551040 test-final: EER=0.3010 (n=1000 mean_tgt=0.211 mean_non=0.099)

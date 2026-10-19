@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/auto/brno12-cerit/nfs4/home/pandavinci/slt-sstc-baseline/outputs/organizer-pretrained/best.pkl",
+  "model": "ConformerMFA",
+  "embd_dim": 256,
+  "splits": [
+    "train",
+    "dev",
+    "test"
+  ],
+  "counts": {
+    "train": 2620791,
+    "dev": 175464,
+    "test": 216480
+  },
+  "synthesizers": null,
+  "spk_order": "spk2utt",
+  "n_speaker_classes": 1172
+}

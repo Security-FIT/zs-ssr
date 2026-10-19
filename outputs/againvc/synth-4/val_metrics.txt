@@ -1,0 +1,12 @@
+epoch 1 samples 327520 dev-epoch1: EER=0.4964 (n=14622 mean_tgt=-0.015 mean_non=-0.017)
+epoch 2 samples 655040 dev-epoch2: EER=0.5025 (n=14622 mean_tgt=-0.018 mean_non=-0.018)
+epoch 3 samples 982560 dev-epoch3: EER=0.4986 (n=14622 mean_tgt=-0.015 mean_non=-0.016)
+epoch 4 samples 1310080 dev-epoch4: EER=0.4968 (n=14622 mean_tgt=-0.010 mean_non=-0.011)
+epoch 5 samples 1637600 dev-epoch5: EER=0.5029 (n=14622 mean_tgt=-0.014 mean_non=-0.014)
+epoch 6 samples 1965120 dev-epoch6: EER=0.5038 (n=14622 mean_tgt=-0.017 mean_non=-0.016)
+epoch 7 samples 2292640 dev-epoch7: EER=0.4984 (n=14622 mean_tgt=-0.014 mean_non=-0.015)
+epoch 8 samples 2620160 dev-epoch8: EER=0.4995 (n=14622 mean_tgt=-0.017 mean_non=-0.018)
+epoch 9 samples 2947680 dev-epoch9: EER=0.5027 (n=14622 mean_tgt=-0.012 mean_non=-0.013)
+epoch 10 samples 3275200 dev-epoch10: EER=0.4969 (n=14622 mean_tgt=-0.013 mean_non=-0.015)
+epoch 10 samples 3275200 dev-final: EER=0.4969 (n=14622 mean_tgt=-0.013 mean_non=-0.015)
+epoch 10 samples 3275200 test-final: EER=0.4892 (n=13530 mean_tgt=-0.001 mean_non=-0.007) WER=1.0348

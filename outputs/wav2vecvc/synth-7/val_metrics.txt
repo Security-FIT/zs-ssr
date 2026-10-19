@@ -1,0 +1,1 @@
+epoch 20 samples 6551680 test-final: EER=0.4452 (n=13530 mean_tgt=0.105 mean_non=0.076) WER=0.3411

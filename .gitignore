@@ -1,0 +1,81 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- Data (corpora live outside the repo, in ../datasets/) ----
+data/
+
+# ---- Weights, embeddings, audio ----
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.npz
+*.npy
+*.wav
+*.flac
+*.safetensors
+diffvc/checkpts/
+evaluation/models/
+
+# ---- Caches, regenerated on first run ----
+wavlm_cache/
+libritts_cache/
+dataset/libri_resolve_cache.json
+*.tmp.*
+
+# ---- Outputs ----
+# Published per run: the final test trials, val_metrics.txt and the listening examples
+# (overrides *.wav above). FreeVC: synth-1..8, synth-1-align, synth-4-align. AGAIN-VC, DiffVC,
+# wav2vec-VC: synth-1..8.
+outputs/**
+!outputs/**/
+!outputs/*/synth-[1-8]/val_metrics.txt
+!outputs/*/synth-[1-8]/test-final_trials_epoch*.tsv
+!outputs/*/synth-[1-8]/examples/**
+!outputs/freevc/synth-[14]-align/val_metrics.txt
+!outputs/freevc/synth-[14]-align/test-final_trials_epoch*.tsv
+!outputs/freevc/synth-[14]-align/examples/**
+# VC quality of Test-9..16 is not part of the paper
+analysis/results/vc_quality_*.tsv
+!analysis/results/vc_quality_Test-[1-8].tsv
+runs/
+logs/
+*.log
+wandb/
+
+# ---- Cluster leftovers ----
+jobs_info.txt
+scripts/sge/one-off/
+# job scripts that did not produce published results, and the merlin-only header
+scripts/sge/_sge_header.sh
+scripts/sge/eval_final.sh
+scripts/sge/setup_env.sh
+scripts/sge/pack/
+scripts/sge/*/smoke_*.sh
+scripts/sge/diffvc/build_diffvc_cache.sh
+scripts/sge/*/train_*[_-]align.sh
+!scripts/sge/freevc/train_freevc_synth[14]_align.sh
+scripts/metacentrum/
+zs-ssr-*.zip
+Makefile
+notebooks/
+
+# ---- OS / editor ----
+.DS_Store
+*.swp
+
+# ---- Local only ----
+/wav2vecvc/
+train_wav2vec-vc.py
+scripts/sge/smoke_all.sh
+baseline/
+.claude/
+TODO.md
+CLAUDE.md
+embeddings/non-finetuned/ssv-mel-ecapa-25/

@@ -1,0 +1,52 @@
+epoch 1 samples 327584 dev-epoch1: EER=0.3432 (n=14622 mean_tgt=0.195 mean_non=0.118)
+epoch 2 samples 655168 dev-epoch2: EER=0.3138 (n=14622 mean_tgt=0.245 mean_non=0.146)
+epoch 3 samples 982752 dev-epoch3: EER=0.3117 (n=14622 mean_tgt=0.218 mean_non=0.114)
+epoch 4 samples 1310336 dev-epoch4: EER=0.2693 (n=14622 mean_tgt=0.281 mean_non=0.141)
+epoch 5 samples 1637920 dev-epoch5: EER=0.2543 (n=14622 mean_tgt=0.304 mean_non=0.150)
+epoch 6 samples 1965504 dev-epoch6: EER=0.2385 (n=14622 mean_tgt=0.297 mean_non=0.133)
+epoch 7 samples 2293088 dev-epoch7: EER=0.2308 (n=14622 mean_tgt=0.303 mean_non=0.129)
+epoch 8 samples 2620672 dev-epoch8: EER=0.2288 (n=14622 mean_tgt=0.310 mean_non=0.133)
+epoch 9 samples 2948256 dev-epoch9: EER=0.2225 (n=14622 mean_tgt=0.320 mean_non=0.138)
+epoch 10 samples 3275840 dev-epoch10: EER=0.2236 (n=14622 mean_tgt=0.310 mean_non=0.129)
+epoch 11 samples 3603424 dev-epoch11: EER=0.2150 (n=14622 mean_tgt=0.316 mean_non=0.125)
+epoch 12 samples 3931008 dev-epoch12: EER=0.2223 (n=14622 mean_tgt=0.311 mean_non=0.123)
+epoch 13 samples 4258592 dev-epoch13: EER=0.2101 (n=14622 mean_tgt=0.338 mean_non=0.139)
+epoch 14 samples 4586176 dev-epoch14: EER=0.2074 (n=14622 mean_tgt=0.334 mean_non=0.136)
+epoch 15 samples 4913760 dev-epoch15: EER=0.2100 (n=14622 mean_tgt=0.323 mean_non=0.125)
+epoch 16 samples 5241344 dev-epoch16: EER=0.2054 (n=14622 mean_tgt=0.339 mean_non=0.137)
+epoch 17 samples 5568928 dev-epoch17: EER=0.2093 (n=14622 mean_tgt=0.325 mean_non=0.128)
+epoch 18 samples 5896512 dev-epoch18: EER=0.2023 (n=14622 mean_tgt=0.333 mean_non=0.129)
+epoch 19 samples 6224096 dev-epoch19: EER=0.2082 (n=14622 mean_tgt=0.327 mean_non=0.131)
+epoch 20 samples 6551680 dev-epoch20: EER=0.2021 (n=14622 mean_tgt=0.344 mean_non=0.139)
+epoch 21 samples 6879264 dev-epoch21: EER=0.1978 (n=14622 mean_tgt=0.339 mean_non=0.132)
+epoch 22 samples 7206848 dev-epoch22: EER=0.2041 (n=14622 mean_tgt=0.347 mean_non=0.140)
+epoch 23 samples 7534432 dev-epoch23: EER=0.1965 (n=14622 mean_tgt=0.335 mean_non=0.126)
+epoch 24 samples 7862016 dev-epoch24: EER=0.1992 (n=14622 mean_tgt=0.340 mean_non=0.134)
+epoch 25 samples 8189600 dev-epoch25: EER=0.1998 (n=14622 mean_tgt=0.341 mean_non=0.130)
+epoch 26 samples 8517184 dev-epoch26: EER=0.1979 (n=14622 mean_tgt=0.341 mean_non=0.131)
+epoch 27 samples 8844768 dev-epoch27: EER=0.2044 (n=14622 mean_tgt=0.339 mean_non=0.136)
+epoch 28 samples 9172352 dev-epoch28: EER=0.1971 (n=14622 mean_tgt=0.344 mean_non=0.133)
+epoch 29 samples 9499936 dev-epoch29: EER=0.1999 (n=14622 mean_tgt=0.337 mean_non=0.130)
+epoch 30 samples 9827520 dev-epoch30: EER=0.1981 (n=14622 mean_tgt=0.339 mean_non=0.132)
+epoch 31 samples 10155104 dev-epoch31: EER=0.1995 (n=14622 mean_tgt=0.342 mean_non=0.133)
+epoch 32 samples 10482688 dev-epoch32: EER=0.1989 (n=14622 mean_tgt=0.348 mean_non=0.140)
+epoch 33 samples 10810272 dev-epoch33: EER=0.2076 (n=14622 mean_tgt=0.342 mean_non=0.136)
+epoch 35 samples 11465440 dev-epoch35: EER=0.2067 (n=300 mean_tgt=0.346 mean_non=0.138) WER=0.3872
+epoch 34 samples 11137856 test-final: EER=0.2359 (n=13530 mean_tgt=0.317 mean_non=0.134) WER=0.3874
+epoch 36 samples 11793024 dev-epoch36: EER=0.2133 (n=300 mean_tgt=0.343 mean_non=0.139) WER=0.3791
+epoch 37 samples 12120608 dev-epoch37: EER=0.2100 (n=300 mean_tgt=0.352 mean_non=0.133) WER=0.3940
+epoch 38 samples 12448192 dev-epoch38: EER=0.2100 (n=300 mean_tgt=0.349 mean_non=0.138) WER=0.3891
+epoch 39 samples 12775776 dev-epoch39: EER=0.2000 (n=300 mean_tgt=0.338 mean_non=0.133) WER=0.3894
+epoch 40 samples 13103360 dev-epoch40: EER=0.2067 (n=300 mean_tgt=0.352 mean_non=0.139) WER=0.3890
+epoch 41 samples 13430944 dev-epoch41: EER=0.1900 (n=300 mean_tgt=0.349 mean_non=0.141) WER=0.3756
+epoch 42 samples 13758528 dev-epoch42: EER=0.1933 (n=300 mean_tgt=0.348 mean_non=0.132) WER=0.3833
+epoch 43 samples 14086112 dev-epoch43: EER=0.2167 (n=300 mean_tgt=0.342 mean_non=0.140) WER=0.3836
+epoch 44 samples 14413696 dev-epoch44: EER=0.2200 (n=300 mean_tgt=0.347 mean_non=0.141) WER=0.3785
+epoch 45 samples 14741280 dev-epoch45: EER=0.2100 (n=300 mean_tgt=0.337 mean_non=0.137) WER=0.4293
+epoch 46 samples 15068864 dev-epoch46: EER=0.1933 (n=300 mean_tgt=0.352 mean_non=0.139) WER=0.3602
+epoch 47 samples 15396448 dev-epoch47: EER=0.1967 (n=300 mean_tgt=0.350 mean_non=0.135) WER=0.3920
+epoch 48 samples 15724032 dev-epoch48: EER=0.1933 (n=300 mean_tgt=0.348 mean_non=0.136) WER=0.3746
+epoch 49 samples 16051616 dev-epoch49: EER=0.2100 (n=300 mean_tgt=0.347 mean_non=0.140) WER=0.4077
+epoch 50 samples 16379200 dev-epoch50: EER=0.1900 (n=300 mean_tgt=0.345 mean_non=0.135) WER=0.3891
+epoch 50 samples 16379200 dev-final: EER=0.1833 (n=300 mean_tgt=0.351 mean_non=0.136) WER=0.3911
+epoch 50 samples 16379200 test-final: EER=0.2365 (n=2000 mean_tgt=0.321 mean_non=0.137) WER=0.3800

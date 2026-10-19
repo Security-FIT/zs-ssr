@@ -1,0 +1,2 @@
+arch	run	synth	split	n	utmos22_median	utmos22_mean	utmos22_ci95_lo	utmos22_ci95_hi	utmos22_p2p5	utmos22_p97p5
+freevc	synth-1-align	1	test	13530	2.708	2.686	2.679	2.693	1.703	3.442
