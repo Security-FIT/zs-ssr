@@ -1,7 +1,7 @@
-# ZS-SSR: Zero-Shot Source Speech Reconstruction
+# ZS-SSR: Zero-shot Source Speech Reconstruction for Any-to-Any Voice Conversion
 
 This repository contains code for reproducing our publicated results for the paper
-*ZS-SSR: Zero-Shot Source Speech Reconstruction*.
+*ZS-SSR: Zero-shot Source Speech Reconstruction for Any-to-Any Voice Conversion*.
 
 **Listening.** The examples of a run are in `outputs/freevc/synth-X/examples/`.
 
